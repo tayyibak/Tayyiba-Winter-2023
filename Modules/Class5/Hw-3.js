@@ -58,7 +58,7 @@
 
  //Q5. the character present at second-last index in the String
 
- let lIndex = sentence2.length - 1;
+ let lIndex = sentence2.length - 2;
  let charAtLastIndex = sentence2.charAt(lIndex);
  console.log(`\nCharacter present at the LAST-index of the String -> ${charAtLastIndex}`);
  
