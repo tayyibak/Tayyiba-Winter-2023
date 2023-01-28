@@ -49,12 +49,10 @@
  //Q4. does word 'from' present only once in sentence2 (ignoring cases)  
  console.log('\nChecking toLowerCase()');
  let sentence2Lowercase = sentence2.toLowerCase();
- console.log(`\nsentence2 -> ${sentence2}`);
- console.log(`sentence2Lowercase -> ${sentence2Lowercase}`);
-
- let includes_from = sentence2Lowercase.includes('from');
- console.log(`\nis sentence2 include "from" -> ${includes_from}`); 
- 
+ let indexOf_from = sentence2Lowercase.indexOf('from');
+ let lastIndexOf_from = sentence2Lowercase.lastIndexOf('from')
+ let result4 = lastIndexOf_from === lastIndexOf_from && indexOf_from > 0 ;
+ console.log(`does word 'from' present only once in sentence2 (ignoring cases)    -> ${result4}`);
 
  //Q5. the character present at second-last index in the String
 
