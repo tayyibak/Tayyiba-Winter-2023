@@ -27,10 +27,14 @@
  titleCaseStr1[6] = titleCaseStr1[6].substring(0,1).toUpperCase() + titleCaseStr1[6].substring(1);
  titleCaseStr1[7] = titleCaseStr1[7].substring(0,1).toUpperCase() + titleCaseStr1[7].substring(1);
  titleCaseStr1 = titleCaseStr1[0].concat(' ', titleCaseStr1[1], ' ', titleCaseStr1[2], ' ', titleCaseStr1[3], ' ', titleCaseStr1[4], ' ', titleCaseStr1[5],' ', titleCaseStr1[6],' ', titleCaseStr1[7] );
-
- console.log('\nQ1');
+ 
+ for (let t = 0; t <= 0; t++) {
+    console.log('\nQ1');
  console.log(str1);                  
- console.log(titleCaseStr1);         
+ console.log(titleCaseStr1);  
+    
+}
+
 
 
  /**
@@ -51,11 +55,12 @@
  Str2join = str2Split.join(' ')
  str2Split = str2Split.toString();
  reverseStr2 = str2Split.replace(/,/ig, ' ')
- 
- console.log('\nQ2');
- console.log(str2);             
- console.log(reverseStr2);       
- 
+       
+ for (let s = 0; s <= 0; s++) {
+    console.log('\nQ2');
+    console.log(str2);             
+    console.log(reverseStr2);  
+ }
 
  /**
   * Q3:
@@ -73,11 +78,16 @@
  let totalOfValues, numberOfValues;
  totalOfValues = 15;
  numberOfValues = 5;
- avg = (totalOfValues/numberOfValues);
-  
- console.log('\nQ3');
- console.log(arr3);    
- console.log(`avg-> ${avg}`);       
+ avg = (totalOfValues/numberOfValues); 
+ 
+ for (const val of arr3)
+      (arr3.length-1);
+ {
+    console.log('\nQ3');
+    console.log(arr3);    
+    console.log(`avg-> ${avg}`);  
+ }
+ 
  
  
  /**
@@ -102,11 +112,13 @@
  abbr[2] = abbr[2].substring(0,1).toUpperCase();
  abbr[3] = abbr[3].substring(0,1).toUpperCase();
  abbr= abbr[0]+ abbr[1]+ abbr[2]+ abbr[3];
- 
- console.log('\nQ4')
- console.log(str4);         
- console.log(abbr);          
- 
+         
+ for (let st = 0; st <= 0; st++) {
+    console.log('\nQ4')
+    console.log(str4);         
+    console.log(abbr);  
+ }
+
  
  /**
   * Q5:
@@ -121,11 +133,14 @@
   */
  let arr5 = ['earTh', 'meRCUrY', 'VeNUs', 'Mars', 'JUPiTer'];
  console.log('\nQ5')
- console.log(arr5);      // ['earTh', 'meRCUrY', 'VeNUs', 'Mars', 'JUPiTer']
+      // ['earTh', 'meRCUrY', 'VeNUs', 'Mars', 'JUPiTer']
  // code
-
+ 
  arr5String = arr5.toString();
  arr5Upper = arr5String.toUpperCase();
  arr5 = arr5Upper.toUpperCase();
  arr5 = arr5Upper.split(',');
- console.log(arr5);      // ['EARTH', 'MERCURY', 'VENUS', 'MARS', 'JUPITER']
+for (let a = 0; a <= arr5.length-5; a++) {
+ console.log(arr5); 
+    
+}
