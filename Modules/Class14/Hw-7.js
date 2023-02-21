@@ -82,4 +82,13 @@ function firstValueGreaterThan (inputnum) {
 let minNumbers = [98, 34, 12, 1, 23, 43, 65, 43, 87, 17]; 
     let min = Math.min(...minNumbers)
     console.log(`\nthe minimum value in the given numbers-array-> ${min}`);
-    
+    minNum = [0];
+    function minValue(inputArray) {
+        let  minNum = inputArray[0];  
+             for (let i= 0; i <= inputArray.length-1; i++) {  
+                if(inputArray[i] < smallestValue)
+                minNum = inputArray[i]; 
+                result =  minNum;
+                }  
+             return  minNum;
+      }
